@@ -53,14 +53,11 @@ const projects: Projects = {
       },
     },
     stack: [
-      logos.java,
-      logos.kotlin,
+      logos.flutter,
       logos.firebase,
-      logos.react,
       // logos.graphql,
-      // logos.typescript,
-      logos.reactQuery,
-      // logos.materialui,
+      logos.restapi,
+      logos.materialui,
     ],
     links: {
       live: "https://play.google.com/store/apps/details?id=com.flytube.app",
@@ -82,10 +79,9 @@ const projects: Projects = {
       },
     },
     stack: [
-      logos.java,
-      logos.kotlin,
+      logos.flutter,
       logos.firebase,
-      logos.react,
+      logos.uiux,
     ],
     links: {
       live: "https://play.google.com/store/apps/details?id=app.hearme.enterprise&hl=en",
@@ -145,7 +141,7 @@ const projects: Projects = {
       // github: "https://github.com",
       live: "https://get-it-done-git-master-juggernaut9.vercel.app",
     },
-    stack: [logos.react, logos.nodejs, logos.materialui, logos.kotlin, logos.firebase, logos.sass],
+    stack: [logos.react, logos.nodejs, logos.materialui,  logos.firebase, logos.sass],
     images: {
       main: {
         link: "/project/mobile/3/cocbase.png",

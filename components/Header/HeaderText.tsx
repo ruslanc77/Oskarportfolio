@@ -45,7 +45,7 @@ function HeaderText() {
         gutterBottom
       >
         <span className={classes.hi}>Hi, </span>I'm{" "}<br/>
-        <span itemProp="givenName"> Oskar Ryszard</span>
+        <span itemProp="givenName"> Oskar Kosciuk</span>
       </Typography>
       <Typography
         variant="h4"
@@ -53,14 +53,14 @@ function HeaderText() {
         component="h2"
         gutterBottom
       >
-        A Sr, React Native developer
+        A Sr, Mobile developer
       </Typography>
       <Typography itemProp="knowsAbout" className={classes.paragraph}>
         {/* I specialize in developing and deploying responsive websites and web
         applications */}
-        A React Native Developer with 8 years of dedicated experience, professional well-versed in crafting robust and user-centric mobile applications for both iOS and Android platforms. 
-        Experienced React Native Developer with proven record of developing and maintaining cross-platform mobile applications that increased app performance by 25% for many clients. 
-        Expert in implementing state management solutions and optimizing app performance, resulting in 40% reduction in load times...
+        A Mobile Developer with 8 years of dedicated experience, professional well-versed in crafting robust and user-centric mobile applications for both iOS and Android platforms. 
+        Experienced Flutter Developer with proven record of developing and maintaining cross-platform mobile applications that increased app performance by 25% for over many clients. 
+        Expert in implementing state management solutions and optimizing app performance, resulting in 40% reduction in load times... 
       </Typography>
       <Buttons />
     </Box>

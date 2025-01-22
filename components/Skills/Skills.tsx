@@ -44,17 +44,18 @@ const useStyles = makeStyles((theme: Theme) =>
 function Skills() {
   const iconsArray: iconsArray[] = useMemo(
     () => [
-      logos.react,
+      logos.flutter,
       logos.java,
       logos.kotlin,
+      logos.react,
       logos.typescript,
       logos.javascript,
       logos.mobx,
       logos.firebase,
       logos.swift,
-      logos.flutter,
       logos.nextjs,
       logos.nodejs,
+      logos.restapi,
       logos.mongodb,
       logos.postgresql,
       logos.trpc,
@@ -73,7 +74,8 @@ function Skills() {
       // logos.socketio,
       // logos.vercel,
       // logos.cypress,
-      logos.reactQuery,
+      // logos.reactQuery,
+      logos.uiux,
       logos.materialui,
     ],
     []

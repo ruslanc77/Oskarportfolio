@@ -33,7 +33,11 @@ type logoNames =
   | "framerMotion"
   | "trpc"
   | "cypress"
-  | "reactQuery";
+  | "reactQuery"
+  | "uiux"
+  | "restapi"
+  | "teamlead"
+  ;
 
 type Logos = {
   [k in logoNames]: {
@@ -64,6 +68,21 @@ const logos: Logos = {
   kotlin: {
     label: "kotlin",
     logo: "/assets/icons/kotlin.png",
+    spin: false,
+  },
+  uiux: {
+    label: "uiux",
+    logo: "/assets/icons/uiux.png",
+    spin: false,
+  },
+  restapi: {
+    label: "restapi",
+    logo: "/assets/icons/restapi.png",
+    spin: false,
+  },
+  teamlead: {
+    label: "teamlead",
+    logo: "/assets/icons/teamlead.png",
     spin: false,
   },
   mobx: {
